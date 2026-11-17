@@ -1,0 +1,51 @@
+{
+  "version": "0.0.113",
+  "plot_id": "bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a",
+  "output_directory": "output",
+  "layouts": {
+    "umap": {
+      "variants": [
+        {
+          "n_neighbors": 15,
+          "min_dist": 0.01,
+          "layout": "output/data/layouts/umap-bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a.json",
+          "jittered": "output/data/layouts/umap-jittered-bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a.json"
+        }
+      ]
+    },
+    "alphabetic": {
+      "layout": "output/data/layouts/grid-bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a.json"
+    },
+    "grid": {
+      "layout": "output/data/layouts/rasterfairy-bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a.json"
+    },
+    "categorical": false,
+    "date": false,
+    "geographic": null,
+    "custom": null
+  },
+  "initial_layout": "umap",
+  "point_sizes": {
+    "min": 0,
+    "grid": 0.1111111111111111,
+    "max": 0.4,
+    "scatter": 0.05555555555555555,
+    "initial": 0.05555555555555555,
+    "categorical": 0.06666666666666667,
+    "geographic": 0.002777777777777778
+  },
+  "imagelist": "output/data/imagelists/imagelist-bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a.json",
+  "atlas_dir": "output/data/atlases/bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a",
+  "metadata": false,
+  "default_hotspots": "output/data/hotspots/hotspot-bfe3c3b8-e273-11f1-9c03-0a555dc3ca8a.json",
+  "custom_hotspots": "output/data/hotspots/reviewed_subject_groups.json",
+  "gzipped": false,
+  "config": {
+    "sizes": {
+      "atlas": 2048,
+      "cell": 96,
+      "lod": 128
+    }
+  },
+  "creation_date": "17-November-2026-18:44:01"
+}
