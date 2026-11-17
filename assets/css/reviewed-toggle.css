@@ -20,3 +20,19 @@
 #review-desc { font: 11px/1.45 system-ui,-apple-system,sans-serif; color: #bbb; padding-top: 8px; }
 #review-desc strong { color: #eab755; }
 #review-status { color: #f1d28d; font-size: 10px; margin-top: 5px; }
+
+/* Ensure Chinese reviewed labels remain readable even at high browser zoom. */
+#hotspots .hotspot .hotspot-label {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #f2f2f2;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  word-break: normal;
+  text-transform: none;
+}
+@media (max-width: 600px) {
+  #hotspots .hotspot { box-sizing: border-box; width: 100%; }
+  #hotspots .hotspot .hotspot-image { width: 90px; max-height: 80px; margin: 0 auto; object-fit: contain; }
+}
